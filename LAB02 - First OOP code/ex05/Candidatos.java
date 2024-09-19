@@ -6,7 +6,7 @@ public class Candidatos {
     private String reeleiçao;
     private int num_p;
     private String cargo = new String();
-    /* // Enunciado pediu sem construtor
+
     public Candidatos(String n, String d, String g, double b, String r, int np, String c){
         this.nome = n;
         this.data = d;
@@ -16,7 +16,7 @@ public class Candidatos {
         this.num_p = np;
         this.cargo = c;
     }
-    */
+
     public void mostrar(){
         System.out.println("-------------------------------------------------------------------");
         System.out.print("Nome: " + nome);

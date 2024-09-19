@@ -6,7 +6,8 @@ public class ex03 {
         v[1] = new Candidatos("ZÉ GORDO", "18/06/1969", "Masculino", 1823426.55, "Não", 45, "Prefeito");
         v[2] = new Candidatos("BETH", "29/12/1954", "Feminino", 132000.0, "Não", 44777, "Vereador");
         v[3] = new Candidatos("IRMÃ ANGENILDA", "27/04/1969", "Feminino", 3000, "Não", 12555, "Vereador");
-        for (int i = 0; i<4; i++)
-            v[i].mostrar();
+        // usando for enhanced
+        for (Candidatos c : v)
+            c.mostrar();
     }
 }
