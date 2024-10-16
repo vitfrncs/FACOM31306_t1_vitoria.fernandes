@@ -6,7 +6,7 @@ Instruções:
 
 # Ex01 
 - Faça um pequeno programa que utiliza o conceito de Associação
-- os objetos são independentes?
+- os objetos são independentes?[enunciado.md](enunciado.md)
 
 
 # Ex02
