@@ -3,7 +3,7 @@
 //Além disso, os objetos são independentes
 
 public class ex02 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         // criando alunos
         Aluno aluno1 = new Aluno("Fátima", 61);
         Aluno aluno2 = new Aluno("Sueli", 87);
