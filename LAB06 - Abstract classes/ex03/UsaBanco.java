@@ -29,12 +29,12 @@ public class UsaBanco {
         if (conta2.debitaValor(1200, 5678)) {
             System.out.println("Débito realizado com sucesso.\n");
         } else {
-            System.out.println("Débito não permitido.");
+            System.out.println("Débito não permitido.\n");
         }
 
         System.out.println("Saldo atual da conta 2: " + conta2.getSaldo(5678));
 
-        // Tentativa de débito além do saldo e do limite na conta2
+        // Tentativa de débito além do saldo e do limite na conta 2:
         System.out.println("Debitando 500 da conta 2:");
         if (conta2.debitaValor(500, 5678)) {
             System.out.println("Débito realizado com sucesso.\n");
